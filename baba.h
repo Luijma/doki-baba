@@ -6,8 +6,6 @@
 #include <string.h>
 #include <stddef.h>
 
-const char *moods[] = { "Miserable", "Angry", "Sad", "Bored", "Okay", "Glad", "Happy", "Perfectly Happy", "\0"};
-
 typedef struct doki_s
 {
     char *Name;
@@ -17,7 +15,7 @@ typedef struct doki_s
     int CurrentMood;
 } doki_t;
 
-void DisplayMenu(doki_t doki, FILE CurrentMenu);
+void DisplayScreen(doki_t doki, char* ScreenName);
 char* GetInput(int ChoiceRange);
 FILE* SetMenu();
 

@@ -1,0 +1,11 @@
+
+
+
+                                        What do you want to do with Doki First?
+
+
+                                        1) Feed
+                                        2) Play
+                                        3) Check
+                                        4) Save
+                                        5) Exit
