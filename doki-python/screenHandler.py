@@ -1,0 +1,2 @@
+class ScreenHandler:
+    surfaces = []
